@@ -323,6 +323,12 @@ figcaption {
   margin-right: auto;
 }
 
+.align-center.margin-top.margin-large {
+  -webkit-text-fill-color: inherit;
+  background-clip: border-box;
+  transition: opacity .2s;
+}
+
 .spacing-clean {
   margin: 0;
   padding: 0;
@@ -3659,6 +3665,7 @@ figcaption {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  border-radius: 19px;
 }
 
 .nav-wrap {
@@ -3897,15 +3904,17 @@ figcaption {
 
 .background-video-2 {
   width: 100%;
-  height: 718.502px;
+  height: 800px;
   border-radius: 0;
+  align-self: stretch;
   overflow: visible;
 }
 
 .div-block-3 {
-  width: 1000px;
+  width: 1200px;
   height: auto;
   border-radius: 20px;
+  align-self: stretch;
   box-shadow: 0 6px 20px 9px rgba(0, 0, 0, .16);
 }
 
@@ -3918,13 +3927,14 @@ figcaption {
 }
 
 .image-2 {
+  width: 1200px;
   height: auto;
   display: block;
   overflow: visible;
 }
 
 .div-block-4 {
-  width: 1000px;
+  width: auto;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   flex-direction: column;
